@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Huiswerk les 25</title>
-    <script src="**http://**code.jquery.com/jquery-3.6.1.min.js"></script>
-	  <script src="**http://**code.jquery.com/jquery-3.2.1.min.js"></script>
-	  <script src="**http://**code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript">
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+    <script>
     $(document).ready(function(){
       $("#flip").click(function(){
         $("#panel").slideToggle("slow");
       });
     });
-
     $(document).ready(function(){
 			// Some code to be executed...
 			alert("Vivamus fermentum consectetur pellentesque. Nunc magna sem, aliquet quis dignissim sed, tincidunt et lacus. Suspendisse facilisis purus ligula, nec imperdiet quam condimentum eget. Integer convallis enim magna, eget euismod dolor blandit non. Aenean luctus imperdiet neque. Maecenas pharetra quam odio. Quisque ultrices lacus a ex vulputate facilisis. Ut sollicitudin rutrum sapien in molestie. Mauris pharetra velit at sapien scelerisque finibus. Vivamus et quam lectus. Pellentesque vulputate, arcu eu consequat ultrices, nisi massa euismod enim, in sollicitudin urna diam non velit.");
 		});
-
-
     $(document).ready(function(){
     $("div").click(function(){
         var color = $(this).css("background-color");
         $("#result").html(color);
     });
     });
-
     </script>
     <style>
     body{
@@ -35,7 +31,7 @@
      background-size: cover;
     }
     header{
-    width: 99,9%;
+    width: 100%;
     background-color: black;
     color: black;
     height: 30px;
@@ -88,16 +84,17 @@
     cursor: pointer;
     display: inline-block;
     padding-left: 10%;
-    background-color:#f00;";
+    background-color:#ff0000;
     color:white;
     border-radius: 12px;
 }
+
   P{
         color:black;
-}
-  .rgb{
-        color:white;
-        margin-left: 205px;
+      }
+        .rgb{
+              color:white;
+              margin-left: 205px;
 }
   footer{
      height: 70px;
@@ -140,10 +137,10 @@
  border: solid 1px black;
 }
 #flip{
+  width: 99,9%;
  padding: 5px;
  text-align: center;
  font-size: 12px;
- font-style: 8px;
  background-color: black;
  color: white;
  border: solid 1px black;
@@ -153,7 +150,6 @@
  padding: 5px;
  text-align: center;
  font-size: 12px;
- font-style: 8px;
  color: white;
  text-decoration: underline 3px;
  text-decoration-color: lightgreen;
@@ -166,7 +162,7 @@
 <h6>Huiswerk les 25</h6>
     </header>
     <div id="flip"><h3>+ CLICK -</h3></div>
-    <div id="panel">Welkom op de pagina!<p></p><p><br></p><p>Huiswerk 25.17</p><p>JavaScript & jQuery</p><p><img src="w3jquery.gif"></p><p><img src="icons.png"  height="120px" width="230px"></p></div>
+    <div id="panel">Welkom op de pagina!<p></p><p><br></p><p>Huiswerk 25.17</p><p>JavaScript & jQuery</p><p><img src="w3jquery.gif" alt="fotojquery"></p><p><img src="icons.png" alt="fotoiconsscript"  height="120px" width="230px"></p></div>
     <nav>
       <ul>
         <li><h1><a href="https://www.nha.nl/?gclid=CjwKCAjwh4ObBhAzEiwAHzZYU2-3-1SIllH0IjcRbdJVypu9FstCdAZKqYvgLb923ODSFB-jqBgLyxoCHaMQAvD_BwE">NHA</a></h1></li>
